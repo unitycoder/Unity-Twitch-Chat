@@ -1,6 +1,6 @@
 # Unity-Twitch-Chat
 
-This is a lightweight [Twitch.tv IRC](https://dev.twitch.tv/docs/irc/) client for Unity. Multithreading is used for reading chat output.
+This is a lightweight [Twitch.tv IRC](https://dev.twitch.tv/docs/irc/) client for Unity. Multithreading is used for reading/writing chat messages.
 
 Unity Twitch Chat allows you to integrate Twitch Chat to your Unity projects.
 
@@ -27,7 +27,7 @@ Unity Twitch Chat allows you to integrate Twitch Chat to your Unity projects.
 
 *Having issues? I recommend looking at the included ExampleProject for a better understanding* 
 
-## Included example project (Unity 2020.3.20f1 LTS)
+## Included example project (Unity 2021.2.12f1)
 
 Spawns chatters as jumping rigidbody boxes
 
@@ -51,4 +51,5 @@ Spawns chatters as jumping rigidbody boxes
 ## Projects made with Unity Twitch Chat
 Intro Fighters, stream overlay game https://lexone.itch.io/introfighters
 
-*Did you create something? Contact me to get featured here.*
+
+*Did you create something? Contact me to get featured here!*

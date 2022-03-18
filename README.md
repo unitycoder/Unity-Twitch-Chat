@@ -18,12 +18,16 @@ Unity Twitch Chat allows you to integrate Twitch Chat to your Unity projects.
 
 ## Quick start
 
-1. Place the **TwitchIRC** folder into your Project's Assets folder
-2. Add the **TwitchIRC** prefab into your scene (TwitchIRC/Prefabs/TwitchIRC.prefab)
-3. Enter your Twitch details in the inspector of **TwitchIRC** (nick should be your username)
-4. Add the **ExampleIRCListener** prefab into your scene (TwitchIRC/Prefabs/ExampleIRCListener.prefab)
-5. Hit play! TwitchIRC should connect to your chosen Twitch channel and start listening to messages
-6. Create your own listener scripts to fit your needs (look at the ExampleIRCListener.cs script for help and examples)
+1. Download the <a href="https://github.com/lexonegit/Unity-Twitch-Chat/releases/">latest .unitypackage from releases</a>
+2. Import the .unitypackage to your Unity project
+3. Add the **TwitchIRC** prefab into your scene (TwitchIRC/Prefabs/TwitchIRC.prefab)
+4. Enter your Twitch details in the inspector of **TwitchIRC**
+     - `oauth` = the oauth token you generated
+     - `nick` = your Twitch login name
+     - `channel` = the Twitch channel you want to connect to
+6. Add the **ExampleIRCListener** prefab into your scene (TwitchIRC/Prefabs/ExampleIRCListener.prefab)
+7. Hit play! TwitchIRC should connect to your chosen Twitch channel and start listening to messages
+8. Create your own listener scripts to fit your needs (look at the ExampleIRCListener.cs script for help and examples)
 
 *Having issues? I recommend looking at the included ExampleProject for a better understanding* 
 
